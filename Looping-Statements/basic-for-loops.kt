@@ -12,4 +12,15 @@ fun main() {
     {
         println(i)
     }
+
+	// basic for loop with step value
+	for(i in 1..10 step 2)
+	{
+		println(i)
+	}
+
+	// Reverse printing | from 10 to 1
+	for(i in 10 downTo 1){
+        println(i)
+    }
 }
